@@ -1,0 +1,59 @@
+[Variables]
+;*********************************************************************************
+;MATERIAL DESIGN COLOURS
+;*********************************************************************************
+red         = 244,  67,  54
+pink        = 233,  30,  99
+purple      = 156,  39, 176
+deeppurple  = 103,  58, 183
+indigo      =  63,  81, 181
+blue        =  33, 150, 243
+lightblue   =   3, 169, 244
+cyan        =   0, 188, 212
+teal        =   0, 150, 136
+green       =  76, 175,  80
+lightgreen  = 139, 195,  74
+lime        = 205, 220,  57
+yellow      = 255, 235,  59
+amber       = 255, 193,   7
+orange      = 255, 152,   0
+deeporange  = 255,  87,  34
+bluegrey    =  96, 125, 139
+
+;*********************************************************************************
+; OPTIONS
+;
+;  Download/Upload: in bytes
+;
+;*********************************************************************************
+cpuSize=90
+cpuColour=#lime#
+
+cpuTempRadius=50
+cpuTempColour=#purple#
+
+gpuRadius=80
+gpuColour=#green#
+
+gpuTempRadius=50
+gpuTempColour=#lightgreen#
+
+ramRadius=80
+ramColour=#indigo#
+
+swapRadius=50
+swapColour=#blue#
+
+downloadRadius=80
+downloadColour=#red#
+downloadMax=6500000
+
+uploadRadius=50
+uploadColour=#orange#
+uploadMax=2125000
+
+diskRadius=80
+diskColour=#blue#
+
+clockRadius=150
+clockColour=#bluegrey#
